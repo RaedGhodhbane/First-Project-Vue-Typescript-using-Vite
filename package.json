@@ -2,12 +2,14 @@
   "name": "personnal-project",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview",
+    "dev": "vite",
     "postinstall": "husky install",
+    "postpublish": "pinst --enable",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "preview": "vite preview",
+    "styleguide": "vue-styleguidist server",
+    "styleguide:build": "vue-styleguidist build"
   },
   "dependencies": {
     "@vue/cli": "^4.5.15",
@@ -35,10 +37,12 @@
     "typescript": "^4.4.4",
     "vite": "^2.7.2",
     "vue-cli-plugin-i18n": "~2.3.1",
+    "vue-cli-plugin-styleguidist": "~4.44.2",
+    "vue-styleguidist": "^4.44.2",
     "vue-tsc": "^0.29.8"
   },
-  "packageManager": "yarn@3.1.1",
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }

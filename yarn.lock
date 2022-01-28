@@ -10988,6 +10988,7 @@ __metadata:
     vite: ^2.7.2
     vue: ^3.2.25
     vue-cli-plugin-i18n: ~2.3.1
+    vue-cli-plugin-styleguidist: ~4.44.2
     vue-i18n: ^8.27.0
     vue-styleguidist: ^4.44.2
     vue-tsc: ^0.29.8
@@ -14807,6 +14808,18 @@ __metadata:
     vue-i18n: ^8.17.0
     vue-i18n-extract: 1.0.2
   checksum: 06a0b71b76324d23ebbf0bcc75f6ec2cf8c458e62fdda9cac38c8825b4e8e422e3741097842b76a891da612d28ef7a28f4b72105d81077765467bed111be89b9
+  languageName: node
+  linkType: hard
+
+"vue-cli-plugin-styleguidist@npm:~4.44.2":
+  version: 4.44.2
+  resolution: "vue-cli-plugin-styleguidist@npm:4.44.2"
+  dependencies:
+    vue-styleguidist: ^4.44.2
+    webpack-merge: ^4.2.2
+  peerDependencies:
+    "@vue/cli-service": ">= 3"
+  checksum: aa693bee1a847904d4a579962e655e8d22769c828312c9f410b53c8f5f9e9429bfd5284c0c825b48f1a9643fde006903e2502b1f67e38b82de985b50ebb82f2e
   languageName: node
   linkType: hard
 
