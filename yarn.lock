@@ -2268,6 +2268,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/cli-plugin-router@npm:~4.5.0":
+  version: 4.5.15
+  resolution: "@vue/cli-plugin-router@npm:4.5.15"
+  dependencies:
+    "@vue/cli-shared-utils": ^4.5.15
+  peerDependencies:
+    "@vue/cli-service": ^3.0.0 || ^4.0.0-0
+  checksum: f0f2f40d54492cdb6be6326e4e9ad860204b3992b7f04d7d14f4d2623a2aa64c0ab0e9d8c87db06bba5846583c0b25df2eef08c50a9a6d46b59b6377bec945b6
+  languageName: node
+  linkType: hard
+
 "@vue/cli-shared-utils@npm:^4.5.15":
   version: 4.5.15
   resolution: "@vue/cli-shared-utils@npm:4.5.15"
@@ -2433,7 +2444,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-api@npm:^6.0.0-beta.11":
+"@vue/devtools-api@npm:^6.0.0-beta.11, @vue/devtools-api@npm:^6.0.0-beta.18":
   version: 6.0.0-beta.21.1
   resolution: "@vue/devtools-api@npm:6.0.0-beta.21.1"
   checksum: 0ba256aa6e184455ff0e990e765ebb4d8f7cb5509c97d25898d2e98f213c2d2b3d44492b3f92ff50fae22ee4806f684675f15f324ae81260ada89e9b3e12303c
@@ -10970,6 +10981,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": latest
     "@vitejs/plugin-vue": ^2.0.0
     "@vue/cli": ^4.5.15
+    "@vue/cli-plugin-router": ~4.5.0
     autoprefixer: ^10.4.2
     axios: ^0.25.0
     eslint: ^8.7.0
@@ -10990,6 +11002,7 @@ __metadata:
     vue-cli-plugin-i18n: ~2.3.1
     vue-cli-plugin-styleguidist: ~4.44.2
     vue-i18n: ^8.27.0
+    vue-router: 4
     vue-styleguidist: ^4.44.2
     vue-tsc: ^0.29.8
     vuex: ^4.0.2
@@ -14926,6 +14939,17 @@ __metadata:
     vue-inbrowser-compiler-utils: ^4.44.0
     walkes: ^0.2.1
   checksum: 1d0909259f9b5e2df95dd9fa678ccfac0309660fc6802a9f2a05306328aa3e1fbc151636e6607fd286caef29c2bf6b96759259ceed4987e9e7ed1f320597d90c
+  languageName: node
+  linkType: hard
+
+"vue-router@npm:4":
+  version: 4.0.12
+  resolution: "vue-router@npm:4.0.12"
+  dependencies:
+    "@vue/devtools-api": ^6.0.0-beta.18
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 5ac66dffd956d088267ba45ec17e390de0aebb1ad08fc9431deb1397e265a003ae99b705fe7ca4ee610782de70aef129b4adf0a494171620d8153d794b2e5498
   languageName: node
   linkType: hard
 
