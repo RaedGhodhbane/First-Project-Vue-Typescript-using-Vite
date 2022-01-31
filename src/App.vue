@@ -2,7 +2,7 @@
   <div class="app">
     <header>
       <div class="title">
-        <h1>IT jobs</h1>
+        <h1>IT jobs - France</h1>
       </div>
       <div class="order">
         <button @click="handleClick('title')">order by title</button>
@@ -44,32 +44,32 @@ export default defineComponent({
 
     const jobs = ref<Job[]>([
       {
-        title: "farm worker",
-        location: "lon lon ranch",
+        title: "Développeur Full Stack",
+        location: "Paris",
         salary: 30000,
         id: "1",
       },
       {
-        title: "quarryman",
-        location: "death mountain",
+        title: "Chef de Projet CRM",
+        location: "Nantes",
         salary: 40000,
         id: "2",
       },
       {
-        title: "flute player",
-        location: "the lost woods",
+        title: "Ingénieur systèmes et réseaux",
+        location: "Lyon",
         salary: 35000,
         id: "3",
       },
       {
-        title: "fisherman",
-        location: "lake hylia",
+        title: "Technicien systèmes et réseau",
+        location: "Marseille",
         salary: 21000,
         id: "4",
       },
       {
-        title: "prison guard",
-        location: "gerudo valley",
+        title: "Data Scientist",
+        location: "Toulouse",
         salary: 32000,
         id: "5",
       },

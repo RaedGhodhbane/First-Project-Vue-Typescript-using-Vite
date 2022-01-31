@@ -3,17 +3,12 @@
     <p>Ordered by {{ order }}</p>
     <transition-group name="list" tag="ul">
       <li v-for="job in orderedJobs" :key="job.id">
-        <h1>{{ job.title }} in {{ job.location }}</h1>
+        <h1>{{ job.title }} à {{ job.location }}</h1>
         <div class="salary">
           <p>{{ job.salary }} €</p>
         </div>
         <div class="description">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            autem aperiam optio cum ab asperiores culpa, illo earum repudiandae
-            iure! Dolorem doloremque optio nemo magni a, nam laudantium eligendi
-            ducimus?
-          </p>
+          <p>Télétravail possible</p>
         </div>
       </li>
     </transition-group>
@@ -53,6 +48,7 @@ export default defineComponent({
 }
 .job-list ul {
   padding: 0;
+  border: 10px black;
 }
 .job-list li {
   list-style-type: none;
